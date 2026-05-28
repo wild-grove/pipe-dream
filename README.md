@@ -8,6 +8,9 @@ This started as a practical solution to an everyday garden problem: remembering 
 
 ## Project Log
 
+#### 05-28-2026
+- General project creation: updated readme, added multi-license
+
 ## Next Steps
 
 ## Licensing
