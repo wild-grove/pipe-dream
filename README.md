@@ -17,6 +17,8 @@ committed directly.
 
 #### 05-28-2026
 - General project creation: updated readme, added multi-license
+#### 05-29-2026
+- Zephyr RTOS set-up w/ blinky board example
 
 ## Next Steps
 
