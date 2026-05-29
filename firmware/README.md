@@ -19,9 +19,21 @@ pip install -r zephyr/scripts/requirements.txt
 ```
 
 Install the Zephyr SDK separately using the upstream Zephyr getting started
-guide. On Linux, also install the udev rules for the target debug probe. For
-the TI CC1352R1 LaunchPad/XDS110 flow, missing udev rules can cause OpenOCD to
-fail with `XDS110: failed to connect`.
+guide. One supported path is:
+
+```sh
+west sdk install
+```
+
+The SDK can be installed to a custom location when prompted. If the install
+partially succeeds but fails while setting up host dependencies, run the SDK's
+`setup.sh` script from the installed SDK directory, then rerun
+`west sdk install`. The second run may report that there is nothing left to
+install if the SDK files were already downloaded.
+
+On Linux, also install the udev rules for the target debug probe. For the TI
+CC1352R1 LaunchPad/XDS110 flow, missing udev rules can cause OpenOCD to fail
+with `XDS110: failed to connect`.
 
 ## Useful Commands
 
