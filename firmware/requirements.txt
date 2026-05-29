@@ -1,0 +1,4 @@
+# Bootstrap dependency for managing the Zephyr workspace.
+# After `west update`, install Zephyr's own Python requirements with:
+#   pip install -r zephyr/scripts/requirements.txt
+west>=0.14.0

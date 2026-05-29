@@ -6,6 +6,12 @@ This is an open-source hardware project for building a custom, retrofit irrigati
 
 This started as a practical solution to an everyday garden problem: remembering to water consistently. For Wild Grove, reliable plant care is foundational to supporting future plant trials, conservation experiments, and citizen science projects. Rather than relying on generic hose timers or proprietary irrigation controllers, Pipe Dream explores a more open, adaptable, and affordable path toward small-scale irrigation automation.
 
+## Firmware
+
+Firmware setup notes live in [firmware/README.md](firmware/README.md). The
+Zephyr RTOS workspace is recreated from [firmware/west.yml](firmware/west.yml)
+instead of being committed directly.
+
 ## Project Log
 
 #### 05-28-2026

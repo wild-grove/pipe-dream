@@ -1,0 +1,21 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Zephyr/west local workspace state
+firmware/.venv/
+firmware/.west/
+firmware/zephyr/
+firmware/modules/
+firmware/bootloader/
+firmware/tools/
+firmware/build/
+firmware/**/build/
+firmware/twister-out/
+
+# Generated firmware artifacts
+*.bin
+*.elf
+*.hex
+*.map
+*.uf2
