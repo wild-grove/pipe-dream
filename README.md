@@ -9,8 +9,9 @@ This started as a practical solution to an everyday garden problem: remembering 
 ## Firmware
 
 Firmware setup notes live in [firmware/README.md](firmware/README.md). The
-Zephyr RTOS workspace is recreated from [firmware/west.yml](firmware/west.yml)
-instead of being committed directly.
+Zephyr RTOS workspace is recreated from
+[firmware/manifest/west.yml](firmware/manifest/west.yml) instead of being
+committed directly.
 
 ## Project Log
 
