@@ -19,6 +19,9 @@ committed directly.
 - General project creation: updated readme, added multi-license
 #### 05-29-2026
 - Zephyr RTOS set-up w/ blinky board example
+#### 05-30-2026
+- Established the custom Pipe Dream application development framework
+  - Working "hello world" example outputting to the terminal
 
 ## Next Steps
 
