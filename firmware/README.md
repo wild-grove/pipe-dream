@@ -43,6 +43,19 @@ Build Zephyr's blinky sample for the TI CC1352R1 LaunchPad:
 west build -b cc1352r1_launchxl zephyr/samples/basic/blinky
 ```
 
+Build the Pipe Dream application for the TI CC1352R1 LaunchPad:
+- `BOARD` variable is set in `app/CMakeLists.txt`
+
+```sh
+west build
+```
+
+Listen for output:
+
+```sh
+screen <tty_device> 115200
+```
+
 Flash the board:
 
 ```sh
@@ -54,3 +67,6 @@ To start fresh, remove the generated workspace directories and run setup again:
 ```sh
 rm -rf .west zephyr modules bootloader tools build .venv
 ```
+
+## Relevant Documentation
+- [Zephyr Project documentation for the CC1352R2 LaunchXL](https://docs.zephyrproject.org/latest/boards/ti/cc1352r1_launchxl/doc/index.html#cc1352r1_launchxl)
