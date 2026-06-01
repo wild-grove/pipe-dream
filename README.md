@@ -22,6 +22,11 @@ committed directly.
 #### 05-30-2026
 - Established the custom Pipe Dream application development framework
   - Working "hello world" example outputting to the terminal
+#### 06-01-2026
+- Worked through a custom blinky application
+  - Alternates between red and green
+  - Stops on button 1 push
+  - Starts on button 2 push
 
 ## Next Steps
 
