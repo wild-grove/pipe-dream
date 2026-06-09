@@ -27,8 +27,16 @@ committed directly.
   - Alternates between red and green
   - Stops on button 1 push
   - Starts on button 2 push
+#### 06-09-2026
+- Migrated the custom blinky application to a `scratch` directory
+- Implemented a very bare servo-pwm application that ticks back and forth
 
 ## Next Steps
+- Acquiring a more reliable power supply module / source that can be integrated into the final version
+- `Button 1` and `Button 2` launchpad integration that should mimic the IR Receiver implementation
+- Integrate an IR Receiver with control:
+  - UP button held --> rotate "valve" (servo) to the right / open position
+  - DOWN button held --> rotate "valve" (servo) to the left / close position
 
 ## Licensing
 
