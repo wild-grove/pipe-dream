@@ -11,6 +11,7 @@ firmware/bootloader/
 firmware/tools/
 firmware/build/
 firmware/**/build/
+firmware/scratch/
 firmware/twister-out/
 
 # Generated firmware artifacts

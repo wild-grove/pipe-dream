@@ -50,6 +50,12 @@ Build the Pipe Dream application for the TI CC1352R1 LaunchPad:
 west build
 ```
 
+Build the scratch application:
+
+```sh
+west build -s scratch -d build/scratch
+```
+
 Listen for output:
 
 ```sh
@@ -62,6 +68,11 @@ Flash the board:
 west flash
 ```
 
+Flash the scratch application
+```sh
+west flash -d build/scratch
+```
+
 To start fresh, remove the generated workspace directories and run setup again:
 
 ```sh
@@ -70,3 +81,5 @@ rm -rf .west zephyr modules bootloader tools build .venv
 
 ## Relevant Documentation
 - [Zephyr Project documentation for the CC1352R2 LaunchXL](https://docs.zephyrproject.org/latest/boards/ti/cc1352r1_launchxl/doc/index.html#cc1352r1_launchxl)
+- [Servo Motor (SG90)](https://docs.sunfounder.com/projects/umsk/en/latest/01_components_basic/33-component_servo.html#servo-motor-sg90)
+  - [Servo Motor (SG90) Datasheet](http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf)
