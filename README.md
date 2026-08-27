@@ -32,11 +32,7 @@ committed directly.
 - Implemented a very bare servo-pwm application that ticks back and forth
 
 ## Next Steps
-- Acquiring a more reliable power supply module / source that can be integrated into the final version
-- `Button 1` and `Button 2` launchpad integration that should mimic the IR Receiver implementation
-- Integrate an IR Receiver with control:
-  - UP button held --> rotate "valve" (servo) to the right / open position
-  - DOWN button held --> rotate "valve" (servo) to the left / close position
+🔬 Re-evaluating the implementation around mechanical, electrical, and environmental constraints; researching alternative approaches to power and outdoor conditions. 
 
 ## Licensing
 
